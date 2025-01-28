@@ -1,0 +1,373 @@
+
+.main_container {
+    margin: auto;
+    width: 600px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    transition: all 0.3s ease;
+  }
+  
+  .form-control {
+    padding: 12px 15px;
+    font-size: 14px;
+    border-radius: 8px; 
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f9f9f9;
+  }
+  
+  .form-control:focus {
+    border-color: #4e73df;
+    box-shadow: 0 0 8px rgba(78, 115, 223, 0.3);
+    outline: none; 
+  }
+  
+  .form-label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .btn-primary {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #4e73df; 
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2e59d9; 
+    box-shadow: 0 4px 8px rgba(78, 115, 223, 0.3); 
+  }
+  
+  .btn-primary:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(78, 115, 223, 0.5);
+  }
+  
+  .mb-3 {
+    margin-bottom: 20px;
+  }
+  
+  .select {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+  }
+  
+  .select:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .select:focus {
+    border-color: #4e73df;
+    box-shadow: 0 0 5px rgba(78, 115, 223, 0.3);
+  }
+  
+
+  
+.main_logo {
+  background-color: black;
+}
+
+.logo_img {
+  width: 250px;
+  padding: 15px;
+}
+
+.editAndDelete{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.action_heading{
+    text-align: center;
+}
+.deleteButton{
+    background-color: #ff1818;
+}
+
+
+.table {
+    width: 95vw;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    overflow: hidden;
+    margin: auto;
+  }
+  
+  .table th,
+  .table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  
+  .table th {
+    background-color: #4e73df;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .table td {
+    background-color: #ffffff;
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .action_heading {
+    text-align: center;
+    min-width: 150px;
+  }
+  
+  .editAndDelete {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+  }
+  
+  .editButton,
+  .deleteButton {
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+  .editButton {
+    background-color: #4e73df;
+    color: white;
+  }
+  
+  .editButton:hover {
+    background-color: #365f9e;
+    transform: translateY(-2px);
+  }
+  
+  .editButton:active {
+    background-color: #254c8c;
+  }
+  
+  .deleteButton {
+    background-color: #e74a3b;
+    color: white;
+  }
+  
+  .deleteButton:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+  }
+  
+  .deleteButton:active {
+    background-color: #b0341f;
+  }
+  
+  .table td[colspan='6'] {
+    text-align: center;
+    color: #888;
+    padding: 20px;
+    font-size: 16px;
+  }
+  
+  .table {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table th,
+  .table td {
+    padding: 18px 20px;
+  }
+  
+  .table td {
+    color: #5a5a5a;
+  }
+  
+
+  
+.filterContainer {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 15px;
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
+  }
+  
+  .filterContainer label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .priorityFilter {
+    width: 200px;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .priorityFilter:focus {
+    border-color: #4e73df; 
+    outline: none; 
+    box-shadow: 0 0 5px rgba(78, 115, 223, 0.3); 
+  }
+  
+  .priorityFilter:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .priorityFilter option {
+    padding: 10px;
+    font-size: 14px;
+    background-color: #fff;
+    color: #555;
+  }
+  
+  .priorityFilter option:hover {
+    background-color: #f1f1f1;
+  }
+  .filterParent{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  .tableParent{
+    margin-top: 20px;
+  }
+
+  /* Common button styling */
+.toggleStatusButton {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .pendingButton {
+    background-color: #ff9f00; 
+    color: white;
+  }
+  
+  .pendingButton:hover {
+    background-color: #e68900; 
+    transform: scale(1.05);
+  }
+  
+  .completedButton {
+    background-color: #28a745; 
+    color: white;
+  }
+  
+  .completedButton:hover {
+    background-color: #218838; 
+    transform: scale(1.05);
+  }
+  
+  .editAndDelete button {
+    margin-right: 5px;
+  }
+  
+  .editAndDelete .fa-trash {
+    color: #e74c3c;
+  }
+  
+  .editAndDelete .fa-pencil-square-o {
+    color: #3498db;
+  }
+  
+
+  @media (max-width: 768px) {
+    .main_container {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .form-label {
+      font-size: 14px;
+    }
+  
+    .form-control {
+      font-size: 14px;
+    }
+  
+    .btn-primary {
+      width: 100%;
+    }
+    .filterContainer {
+        width: 100%;
+        padding: 12px;
+      }
+    
+      .priorityFilter {
+        width: 150px;
+      }
+    
+      .filterContainer label {
+        font-size: 14px;
+      }
+      .tableParent{
+        overflow-x: auto;
+        margin-top: 0;
+      }
+      .table th,
+      .table td {
+        font-size: 12px;
+        padding: 10px;
+      }
+      .editAndDelete {
+        gap: 8px;
+      }
+  }
+
